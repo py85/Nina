@@ -1,0 +1,54 @@
+BRG- Richtig .Academics {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+  background-size: contain;
+  color: white;
+}
+
+.BGfootprint {
+  background-image: url(file:///C:/Users/rkarlay/Documents/Website/images/FOOTBG.png);
+  min-height: 100vh;
+  border-top: 2px solid yellow;
+  background-color: black;
+}
+
+.Academic_row {
+  display: flex;
+  flex-wrap: wrap; /* Ensure flex items wrap to the next line if they exceed the container width */
+  justify-content: center; /* Center the flex items horizontally */
+}
+
+.schooling {
+  flex-basis: calc(
+    50% - 20px
+  ); /* Set the flex basis to 50% of the container width minus the margin */
+  margin: 10px; /* Add margin between the flex items */
+  text-align: center;
+  background: #333131;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 20px; /* Add padding to the boxes */
+}
+
+.schooling h2 {
+  font-size: 1.5rem; /* Adjust the font size for better readability */
+  margin-bottom: 10px; /* Add margin below the heading */
+}
+
+.schooling h3 {
+  font-size: 1.2rem; /* Adjust the font size for better readability */
+  margin-bottom: 10px; /* Add margin below the subheading */
+}
+
+.schooling p {
+  font-size: 1rem; /* Adjust the font size for better readability */
+}
+@media (max-width: 750px) {
+  .schooling {
+    flex-basis: calc(
+      100% - 20px
+    ); /* Set the flex basis to 100% of the container width minus the margin */
+  }
+}
